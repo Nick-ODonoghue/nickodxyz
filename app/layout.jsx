@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={poppins.className}>{children}</body>
+			<body className={`${poppins.className} container mx-auto px-1`}>
+				<Navbar />
+				{children}
+			</body>
 		</html>
 	);
 }
