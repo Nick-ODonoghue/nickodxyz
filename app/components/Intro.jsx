@@ -1,14 +1,25 @@
-import React from "react";
+import Link from "next/link";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Intro() {
 	return (
-		<div className="">
-			<h2 className=" ">Hi, I'm Nick 👋</h2>
-			<p className=" ">
-				I'm a Full-Stack Web Developer, with a passion for learning. A retro game enthusiast 🕹️ and an occasional world
-				traveler ✈️
-			</p>
-		</div>
+		<section>
+			<div className=" text-center pb-10">
+				<h2 className=" text-4xl font-bold py-6">Hi, I'm Nick 👋</h2>
+				<p className=" text-xl font-medium text-slate-700 leading-8 ">
+					I'm a <span className="text-purple-500 font-semibold">Full-Stack Web Developer</span>, with a passion for
+					learning. A retro game enthusiast 🕹️ and an occasional world traveler ✈️
+				</p>
+			</div>
+			<div className=" text-5xl text-slate-700 flex justify-center gap-16 ">
+				<Link href={"https://github.com/Nick-ODonoghue"} target="_blank">
+					<AiFillGithub />
+				</Link>
+				<Link href={"https://www.linkedin.com/in/nick-odonoghue/"} target="_blank">
+					<AiFillLinkedin />
+				</Link>
+			</div>
+		</section>
 	);
 }
 
