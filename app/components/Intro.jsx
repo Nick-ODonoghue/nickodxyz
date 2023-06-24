@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Intro() {
 	return (
-		<section>
+		<section className="px-3">
 			<div className=" text-center pb-10">
 				<h2 className=" text-4xl font-bold py-6">Hi, I'm Nick 👋</h2>
 				<p className=" text-xl font-medium text-slate-700 leading-8 ">
@@ -11,7 +11,7 @@ export default function Intro() {
 					learning. A retro game enthusiast 🕹️ and an occasional world traveler ✈️
 				</p>
 			</div>
-			<div className=" text-5xl text-slate-700 flex justify-center gap-16 ">
+			<div className=" text-5xl text-slate-700 flex justify-center gap-16">
 				<Link href={"https://github.com/Nick-ODonoghue"} target="_blank">
 					<AiFillGithub />
 				</Link>
