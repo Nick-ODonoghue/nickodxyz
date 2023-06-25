@@ -1,10 +1,14 @@
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import { Poppins } from "next/font/google";
+import { Titillium_Web, Exo_2 } from "next/font/google";
 
-const poppins = Poppins({
+const titillium = Titillium_Web({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["200", "300", "400", "600", "700", "900"],
+});
+const exo = Exo_2({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "600", "700", "900"],
 });
 
 export const metadata = {
@@ -15,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} min-h-screen container mx-auto `}>
+      <body className={`${exo.className} min-h-screen container mx-auto `}>
         <Navbar />
         {children}
       </body>

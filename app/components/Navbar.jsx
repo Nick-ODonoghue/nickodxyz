@@ -19,7 +19,7 @@ export default function Navbar() {
           </Link>
         </div>
       </header>
-      <nav className=" container fixed bottom-5 px-3 ">
+      <nav className=" container fixed bottom-5 px-3 z-50 ">
         <div className="bg-slate-300 text-slate-800 rounded-full flex justify-center gap-10 px-10 py-4 max-w-fit mx-auto">
           {navLinks.map((link) => {
             return (
@@ -41,13 +41,13 @@ export default function Navbar() {
 // import { usePathname } from "next/navigation";
 
 // export default function Navbar() {
-//   const navLinks = {
-//     projects: ".projects()",
-//     about: ".about()",
-//     tools: ".tools()",
-//     contact: ".contact()",
-//     resume: ".resume()",
-//   };
+//   const navLinks = [
+//     { path: "/#projects", name: ".projects()" },
+//     { path: "/#about", name: ".about()" },
+//     { path: "/#tools", name: ".tools()" },
+//     { path: "/#contact", name: ".contact()" },
+//     { path: "/#resume", name: ".resume()" },
+//   ];
 //   const title = "NickOD.xyz";
 
 //   const currentPath = usePathname();
@@ -63,10 +63,14 @@ export default function Navbar() {
 //       </header>
 //       <nav className=" container fixed bottom-5 px-3 ">
 //         <div className="bg-slate-300 text-slate-800 rounded-full flex justify-center gap-10 px-10 py-4 max-w-fit mx-auto">
-//           {Object.entries(navLinks).map(([key, value]) => {
+//           {navLinks.map((link) => {
 //             return (
-//               <Link key={value} href={`#${key}`} className=" group font-semibold hover:text-purple-500">
-//                 {value}
+//               <Link
+//                 key={link.name}
+//                 href={link.path}
+//                 className={currentPath === link.path ? "text-red-500 " : " group font-semibold hover:text-purple-500"}
+//               >
+//                 {link.name}
 //                 <span className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-purple-500"></span>
 //               </Link>
 //             );
