@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Intro() {
   return (
-    <section className="px-3 lg:h-screen">
+    <section className="px-3 h-screen">
       <div className=" text-center pb-10">
         <h2 className=" text-4xl font-bold py-6">Hi, I'm Nick 👋</h2>
         <p className=" text-xl font-medium text-slate-700 leading-8 max-w-2xl mx-auto">
