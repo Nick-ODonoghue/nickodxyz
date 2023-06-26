@@ -13,11 +13,11 @@ export default function Navbar() {
   return (
     <>
       <header className=" py-6 px-3 fixed z-20 bg-white/95 min-w-full">
-        <div>
-          <Link href={"#top"}>
-            <h1 className=" text-4xl font-semibold">{title}</h1>
-          </Link>
-        </div>
+        {/* <div> */}
+        <Link href={"#top"} className=" text-4xl font-semibold">
+          {title}
+        </Link>
+        {/* </div> */}
       </header>
       <nav className=" container fixed bottom-5 px-3 z-50 ">
         <div className="bg-purple-300 text-slate-800 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto">

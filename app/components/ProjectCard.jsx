@@ -60,7 +60,7 @@ export default function ProjectCard() {
   ];
 
   return (
-    <div>
+    <div className=" flex flex-col gap-8">
       {portfolioData.map((card) => (
         <div key={card.title} className="shadow-lg p-4 rounded-lg max-w-4xl mx-auto">
           <div className="relative overflow-hidden rounded-md group mb-2">

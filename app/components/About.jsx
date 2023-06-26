@@ -5,7 +5,7 @@ export default function About() {
     {
       id: 1,
       descrition:
-        "I'm a Full Stack Developer with a passion for learning and a thirst for tech. I enjoying writting code in JavaScript & building web applications with React & Next.js. I believe in 1% better everyday & there is nothing I don't know about, there are only the things I haven't learnt yet.",
+        "I'm a Full Stack Developer with a passion for learning and a thirst for tech. I enjoying writting code in JavaScript & building web applications with React & Next.js. I believe in 1% better everyday, there is nothing I don't know about, only the things I haven't learnt yet.",
     },
   ];
 
@@ -28,7 +28,7 @@ export default function About() {
     },
     {
       id: "11-21-11-22",
-      title: "World Travelling",
+      title: "Travelling",
       role: "Traveller",
       date: "2021 - 2022",
       description: "Description here",
@@ -45,12 +45,12 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className=" px-3 h-auto flex flex-col justify-center">
+    <section id="about" className=" px-3 h-auto flex flex-col justify-center pt-28">
       <h2 className=" text-3xl font-semibold mb-6 mr-auto ">.about()</h2>
-      <div className=" mb-6">
+      <div className=" mb-10">
         {aboutMe.map((about) => {
           return (
-            <p id={about.id} className=" text-xl text-center font-medium leading-7 tracking-wide max-w-2xl mx-auto">
+            <p id={about.id} className=" text-xl font-medium leading-7 tracking-wide max-w-2xl">
               {about.descrition}
             </p>
           );
