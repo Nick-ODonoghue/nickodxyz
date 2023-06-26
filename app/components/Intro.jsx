@@ -6,9 +6,9 @@ export default function Intro() {
     <section className="px-3 h-screen flex flex-col justify-center">
       <div className=" text-center pb-10">
         <h2 className=" text-4xl font-bold py-6">Hi, I'm Nick 👋</h2>
-        <p className=" text-xl text-purple-400 font-semibold leading-8 max-w-2xl mx-auto">
-          I'm a <span className="">Full-Stack Web Developer</span>, with a passion for learning. A retro game enthusiast
-          🕹️ and an occasional world traveler ✈️
+        <p className=" text-xl text-purple-400 font-semibold leading-8 tracking-wide max-w-2xl mx-auto">
+          I'm a Full-Stack Web Developer, with a passion for learning. A retro game enthusiast 🕹️ and an occasional
+          world traveler ✈️
         </p>
       </div>
       <div className=" text-5xl flex justify-center gap-16">
