@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact" className=" px-3 h-screen flex items-center">
-      <div>Contact</div>
+      <div>.contact()</div>
     </section>
   );
 }

@@ -6,13 +6,13 @@ export default function Navbar() {
     { path: "#about", name: ".about()" },
     { path: "#tools", name: ".tools()" },
     { path: "#contact", name: ".contact()" },
-    { path: "#resume", name: ".resume()" },
+    // { path: "#resume", name: ".resume()" },
   ];
   const title = "NickOD.xyz";
 
   return (
     <>
-      <header className=" py-6 mb-24 px-3">
+      <header className=" py-6 px-3 fixed z-20 bg-white/95 min-w-full">
         <div>
           <Link href={"#top"}>
             <h1 className=" text-4xl font-semibold">{title}</h1>
@@ -20,12 +20,12 @@ export default function Navbar() {
         </div>
       </header>
       <nav className=" container fixed bottom-5 px-3 z-50 ">
-        <div className="bg-slate-300 text-slate-800 rounded-full flex justify-center gap-10 px-10 py-4 max-w-fit mx-auto">
+        <div className="bg-purple-300 text-slate-800 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto">
           {navLinks.map((link) => {
             return (
-              <Link key={link.name} href={link.path} className=" group font-semibold hover:text-purple-500">
+              <Link key={link.name} href={link.path} className=" group font-semibold">
                 {link.name}
-                <span className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-purple-500"></span>
+                <span className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-slate-800"></span>
               </Link>
             );
           })}
