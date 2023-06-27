@@ -20,12 +20,12 @@ export default function Navbar() {
         {/* </div> */}
       </header>
       <nav className=" container fixed bottom-5 px-3 z-50 ">
-        <div className="bg-purple-300 text-slate-800 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto">
+        <div className="bg-purple-600 text-slate-50 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto">
           {navLinks.map((link) => {
             return (
               <Link key={link.name} href={link.path} className=" group font-semibold">
                 {link.name}
-                <span className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-slate-800"></span>
+                <span className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-slate-50"></span>
               </Link>
             );
           })}

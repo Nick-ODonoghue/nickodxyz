@@ -13,7 +13,7 @@ export default function About() {
     {
       id: "03-23",
       title: "NickOD.xyz",
-      role: "Full Stack Web Developer",
+      role: "Freelance Full-Stack Web Developer",
       date: "2023 - Present",
       description: "Description here",
       techStack: ["html", "css", "tailwindcss", "javascript", "react.js", "next.js", "mongodb", "mobile first"],
@@ -61,7 +61,7 @@ export default function About() {
           return (
             <div id={job.id} className=" mb-20 flex flex-col gap-2">
               <h2 className=" text-xl font-semibold">{job.title}</h2>
-              <h3 className=" text-lg font-medium text-purple-500">{job.role}</h3>
+              <h3 className=" text-lg font-medium text-purple-600">{job.role}</h3>
               <h4 className=" text-sm font-semibold">{job.date}</h4>
               <p className=" leading-7">{job.description}</p>
               <div className=" flex flex-wrap gap-2 mb-4">

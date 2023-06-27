@@ -70,7 +70,7 @@ export default function ProjectCard() {
             </div>
           </div>
           <h2 className="text-2xl font-medium mb-4">{card.title}</h2>
-          <p className="text-lg text-slate-600 mb-2">Tech Stack</p>
+          <p className="text-lg text-purple-600 mb-2">Tech Stack</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {card.techStack.map((tech) => (
               <p key={tech} className="bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">
@@ -78,8 +78,8 @@ export default function ProjectCard() {
               </p>
             ))}
           </div>
-          <p className="text-lg text-slate-600 mb-2">Links</p>
-          <div className="flex gap-6">
+          <p className="text-lg text-purple-600 mb-2">Links</p>
+          <div className="flex">
             {card.siteLinks.map((link) => (
               <Link
                 key={link.label}
@@ -88,7 +88,6 @@ export default function ProjectCard() {
                 className="font-medium text-lg rounded-full hover:text-purple-500 transition-all duration-300"
               >
                 {link.url ? (link.label === "Live Site" ? `${link.label}🔗` : link.label) : ""}
-                {/* {link.label === "Live Site" ? `${link.label}🔗` : link.label} */}
               </Link>
             ))}
           </div>

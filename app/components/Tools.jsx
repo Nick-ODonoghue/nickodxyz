@@ -26,19 +26,19 @@ export default function Tools() {
       </p>
       <div className=" flex flex-col gap-8">
         <div>
-          <h3 className=" text-lg font-semibold text-purple-500 mb-2">Front-End</h3>
+          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Front-End</h3>
           {tools.frontEnd.map((tool) => {
             return <p className=" font-medium mb-1">{tool}</p>;
           })}
         </div>
         <div>
-          <h3 className=" text-lg font-semibold text-purple-500 mb-2">Back-End</h3>
+          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Back-End</h3>
           {tools.backEnd.map((tool) => {
             return <p className=" font-medium mb-1">{tool}</p>;
           })}
         </div>
         <div>
-          <h3 className=" text-lg font-semibold text-purple-500 mb-2">Other</h3>
+          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Other</h3>
           {tools.other.map((tool) => {
             return <p className=" font-medium mb-1">{tool}</p>;
           })}
