@@ -13,7 +13,7 @@ export const work = [
     role: "Freelance Full-Stack Web Developer",
     date: "2023 - Present",
     description:
-      "Through NickOD.xyz I offer a range of services from building websites to full blown web applications. I love taking mere ideas and turning them into reality, no matter what the project is, I'm always up for a challenge. Having been exposed to a wide range of languages and frameworks, I'm able to pick up new technologies quickly and efficiently. I'm always looking to learn new things and expand my knowledge.",
+      "Through NickOD.xyz I offer a range of services from building websites to full blown web applications. I love taking ideas and turning them into reality, no matter what the project is, I'm always up for a challenge. Having been exposed to a wide range of languages and frameworks, I'm able to pick up new technologies quickly and efficiently and I'm always looking to learn new things and expand my knowledge.",
     techStack: ["html", "css", "tailwindcss", "javascript", "react.js", "next.js", "mongodb", "mobile first"],
   },
   {
@@ -22,7 +22,7 @@ export const work = [
     role: "Student",
     date: "2023",
     description:
-      "After discovering my passion for web development, I decided to take the leap and enrol on a 9-week full-time intensive full-stack web developer bootcamp. I learned an amazing amount during this time including Ruby, Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL, Git, GitHub, Heroku, and much much more. I also learned how to work in teams and how to collaborate on projects using Git.",
+      "After discovering my passion for web development, I decided to take the leap and enrol on a 9-week full-time intensive full-stack web developer bootcamp. I learned an amazing amount during this time including Ruby, Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL, Git, Heroku and much much more. I also learned how to work in teams and how to collaborate on projects using Git for version control.",
     techStack: ["html", "css", "bootstrap", "javascript", "ruby", "ruby on rails", "postgresql", "git"],
   },
   {

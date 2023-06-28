@@ -1,5 +1,5 @@
 export const toolsIntro = [
-  "Though I maintain a language-agnostic approach, I must admit that these tools, technologies & way of working have become my favourites lately.",
+  "Though I maintain a language-agnostic approach, I must admit that these tools, technologies & ways of working have become my favourites lately.",
 ];
 
 export const tools = {
