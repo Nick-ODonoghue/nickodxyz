@@ -1,3 +1,9 @@
+<h1 align="center">Personal Portfolio | NickOD.xyz</h1>
+
+![Screenshot of site](/NickODxyzPortfolio.jpg)
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,6 +11,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+npm install
+#
 npm run dev
 # or
 yarn dev
@@ -14,21 +22,46 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is my personal portfolio website. I decided to recreate the site in React using Next.js and TailwindCSS for styling.
 
-## Learn More
+This portfolio site features a modular data structure, enabling easy customization for anyone. By separating the site's content into separate files, individuals can effortlessly update and personalize the data to reflect their own skills, projects, and experiences. This approach allows users to download the source code and quickly make the site their own.
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Sticking Points & What I learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+...
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Mobile First Workflow
+- TailwindCSS
+  - Flexbox
+- React Components
+  - Client Components
+  - Server Components
+
+<br>
+
+## Author
+
+- Website - [NickOD.xyz](http://www.NickOD.xyz)
+- My LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
+
+<br>
+
+## Useful Resources
+
+[React Docs](https://react.dev/learn)
+
+[Next.js Doce](https://nextjs.org/docs)
+
+<br>
+
+## Acknowledgments
+
+[Le Wagon](https://www.lewagon.com/) & all the teachers, TAs and classmates from <em>1122</em>
