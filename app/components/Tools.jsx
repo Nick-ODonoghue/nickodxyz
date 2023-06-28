@@ -1,46 +1,41 @@
-import React from "react";
+import { tools } from "../data/tools";
 
 export default function Tools() {
-  const tools = {
-    frontEnd: [
-      "react.js",
-      "next.js",
-      "html",
-      "css",
-      "bootstrap",
-      "tailwindcss",
-      "react testing library",
-      "jest",
-      "mobile first",
-      "responsive design",
-    ],
-    backEnd: ["node.js", "express.js", "ruby", "ruby on rails", "mongodb", "postgresql", "heroku"],
-    other: ["linux/unix", "git", "axios"],
-  };
-
   return (
     <section id="tools" className=" px-3 h-screen flex flex-col pt-28">
-      <h2 className=" text-3xl font-semibold mb-6 mr-auto ">.tools()</h2>
-      <p className="text-xl font-medium leading-7 tracking-wide max-w-2xl  mb-6">
+      <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 mr-auto ">.tools()</h2>
+      <p className="text-xl font-medium leading-7 tracking-wide max-w-2xl lg:max-w-4xl  mb-6">
         Though I maintain a language-agnostic approach, I must admit that these tools have become my favorites lately.
       </p>
-      <div className=" flex flex-col gap-8">
+      <div className=" flex flex-col lg:flex-row gap-8 lg:justify-between lg:gap-0 max-w-4xl">
         <div>
-          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Front-End</h3>
+          <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Front-End</h3>
           {tools.frontEnd.map((tool) => {
-            return <p className=" font-medium mb-1">{tool}</p>;
+            return (
+              <div className=" flex flex-wrap gap-2 mb-4">
+                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+              </div>
+            );
           })}
         </div>
         <div>
-          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Back-End</h3>
+          <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Back-End</h3>
           {tools.backEnd.map((tool) => {
-            return <p className=" font-medium mb-1">{tool}</p>;
+            return (
+              <div className=" flex flex-wrap gap-2 mb-4">
+                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+              </div>
+            );
           })}
         </div>
         <div>
-          <h3 className=" text-lg font-semibold text-purple-600 mb-2">Other</h3>
+          <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Other</h3>
           {tools.other.map((tool) => {
-            return <p className=" font-medium mb-1">{tool}</p>;
+            return (
+              <div className=" flex flex-wrap gap-2 mb-4">
+                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+              </div>
+            );
           })}
         </div>
       </div>
