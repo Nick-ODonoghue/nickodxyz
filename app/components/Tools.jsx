@@ -2,7 +2,7 @@ import { tools, toolsIntro } from "../data/tools";
 
 export default function Tools() {
   return (
-    <section id="tools" className=" px-3 h-screen flex flex-col pt-28">
+    <section id="tools" className=" px-3 h-auto flex flex-col pt-28">
       <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 mr-auto ">.tools()</h2>
       <p className="text-xl font-semibold leading-7 tracking-wide max-w-2xl lg:max-w-4xl  mb-6">{toolsIntro}</p>
       <div className=" flex flex-col md:flex-row gap-8 md:justify-between lg:gap-0 max-w-4xl">

@@ -7,13 +7,13 @@ export default function Intro() {
     <section className="px-3 h-screen flex flex-col justify-center">
       <div className=" text-center pb-10">
         <h2 className=" text-4xl sm:text-5xl lg:text-6xl font-bold py-6">
-          {intro.welcome} <span className=" text-4xl">{intro.emojiWave}</span>
+          {intro.welcome} <span className=" text-2xl lg:text-4xl">{intro.emojiWave}</span>
         </h2>
         <p className=" text-xl sm:text-2xl lg:text-5xl text-purple-600 font-semibold leading-8 tracking-wide max-w-5xl mx-auto">
           {intro.introBlurb.partOne}
-          <span className=" text-4xl">{intro.emojiGaming}</span>
+          <span className=" text-2xl lg:text-4xl">{intro.emojiGaming}</span>
           {intro.introBlurb.partTwo}
-          <span className=" text-4xl">{intro.emojiTravel}</span>
+          <span className=" text-2xl lg:text-4xl">{intro.emojiTravel}</span>
         </p>
       </div>
       <div className=" text-5xl flex justify-center gap-16">

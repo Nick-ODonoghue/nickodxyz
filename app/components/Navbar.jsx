@@ -19,7 +19,7 @@ export default function Navbar() {
         </Link>
       </header>
       <nav className=" container fixed bottom-5 px-3 z-50 ">
-        <div className="bg-purple-600 text-slate-50 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto">
+        <div className="bg-purple-600 text-slate-50 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto shadow-lg hover:shadow-none transition-all duration-500">
           {navLinks.map((link) => {
             return (
               <Link key={link.name} href={link.path} className=" group font-semibold">
