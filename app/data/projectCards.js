@@ -24,7 +24,7 @@ export const portfolioData = [
     image: AllofYou,
     title: "All of You",
     description:
-      "A space for artists to share who they are and the work they make, and for opportunity makers to find the artists they need",
+      "A space for artists to share who they are and the work they make, and for opportunity makers to find the artists they need.",
     techStack: ["html", "css", "bootstrap", "javascript", "ruby", "ruby on rails", "heroku"],
     siteLinks: [
       {

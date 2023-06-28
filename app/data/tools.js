@@ -1,16 +1,9 @@
+export const toolsIntro = [
+  "Though I maintain a language-agnostic approach, I must admit that these tools, technologies & way of working have become my favourites lately.",
+];
+
 export const tools = {
-  frontEnd: [
-    "react.js",
-    "next.js",
-    "html",
-    "css",
-    "bootstrap",
-    "tailwindcss",
-    "react testing library",
-    "jest",
-    "mobile first",
-    "responsive design",
-  ],
+  frontEnd: ["html", "css", "tailwindcss", "javascript", "react.js", "next.js", "mobile first", "responsive design"],
   backEnd: ["node.js", "express.js", "ruby", "ruby on rails", "mongodb", "postgresql", "heroku"],
-  other: ["linux/unix", "git", "axios"],
+  other: ["git", "axios", "linux / unix", "react testing library", "jest"],
 };

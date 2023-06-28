@@ -2,7 +2,7 @@ export const aboutMe = [
   {
     id: 1,
     descrition:
-      "I'm a Full Stack Developer with a passion for learning and a thirst for tech. I enjoying writting code in JavaScript & building web applications with React & Next.js. I believe in 1% better everyday, there is nothing I don't know about, only the things I haven't learnt yet.",
+      "I'm a Full Stack Developer with a passion for learning and a thirst for tech. I enjoy writing code in JavaScript & building web applications with React & Next.js. I believe in 1% better every day, there is nothing I don't know about, only the things I haven't learned yet.",
   },
 ];
 
@@ -12,7 +12,8 @@ export const work = [
     title: "NickOD.xyz",
     role: "Freelance Full-Stack Web Developer",
     date: "2023 - Present",
-    description: "Description here",
+    description:
+      "Through NickOD.xyz I offer a range of services from building websites to full blown web applications. I love taking mere ideas and turning them into reality, no matter what the project is, I'm always up for a challenge. Having been exposed to a wide range of languages and frameworks, I'm able to pick up new technologies quickly and efficiently. I'm always looking to learn new things and expand my knowledge.",
     techStack: ["html", "css", "tailwindcss", "javascript", "react.js", "next.js", "mongodb", "mobile first"],
   },
   {
@@ -20,7 +21,8 @@ export const work = [
     title: "Le Wagon",
     role: "Student",
     date: "2023",
-    description: "Description here",
+    description:
+      "After discovering my passion for web development, I decided to take the leap and enrol on a 9-week full-time intensive full-stack web developer bootcamp. I learned an amazing amount during this time including Ruby, Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL, Git, GitHub, Heroku, and much much more. I also learned how to work in teams and how to collaborate on projects using GitHub.",
     techStack: ["html", "css", "bootstrap", "javascript", "ruby", "ruby on rails", "postgresql"],
   },
   {
@@ -28,7 +30,8 @@ export const work = [
     title: "Travelling",
     role: "Traveller",
     date: "2021 - 2022",
-    description: "Description here",
+    description:
+      "This world of ours is an amazing place and I want to see as much of it as I can, while I still have the chance. Having taken a year out I was fortunate enough to travel to several countries with my wife. Whilst spending much needed time with friends and family.",
     techStack: [],
   },
   {
@@ -36,7 +39,8 @@ export const work = [
     title: "Lidl GB",
     role: "Senior IT Analyst, IT Analyst, IT Administrator",
     date: "2017 - 2021",
-    description: "Description here",
+    description:
+      "Having started at the bottom of the IT ladder with Lidl, I was fortunate enough to work with some amazing colleagues. These people and friends enabled me to learn and grow as a person and as an IT professional. In my time I was promoted twice at a fast pace, becoming a Senior IT Analyst. This enabled me to take on more responsivities and become the technical lead in many national scale projects. I was also able to mentor and train new starters, which I found very rewarding.",
     techStack: ["windows server 2016", "windows 10", "office 365", "ms exchange", "aduc", "dfs", "dhcp"],
   },
 ];

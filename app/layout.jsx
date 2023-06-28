@@ -1,11 +1,7 @@
 import Navbar from "./components/Navbar";
 import "./globals.css";
-import { Titillium_Web, Exo_2 } from "next/font/google";
+import { Exo_2 } from "next/font/google";
 
-const titillium = Titillium_Web({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "600", "700", "900"],
-});
 const exo = Exo_2({
   subsets: ["latin"],
   weight: ["200", "300", "400", "600", "700", "900"],
