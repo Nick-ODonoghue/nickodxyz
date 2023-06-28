@@ -4,7 +4,7 @@ import { intro } from "../data/intro";
 
 export default function Intro() {
   return (
-    <section className="px-3 h-screen flex flex-col justify-center">
+    <section id="top" className="px-3 h-screen flex flex-col justify-center">
       <div className=" text-center pb-10">
         <h2 className=" text-4xl sm:text-5xl lg:text-6xl font-bold py-6">
           {intro.welcome} <span className=" text-2xl lg:text-4xl">{intro.emojiWave}</span>
