@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${exo.className} min-h-screen container mx-auto `}>
+      <body className={`${exo.className} w-full min-h-screen container mx-auto `}>
         <Navbar />
         {children}
       </body>
