@@ -22,8 +22,8 @@ export const work = [
     role: "Student",
     date: "2023",
     description:
-      "After discovering my passion for web development, I decided to take the leap and enrol on a 9-week full-time intensive full-stack web developer bootcamp. I learned an amazing amount during this time including Ruby, Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL, Git, GitHub, Heroku, and much much more. I also learned how to work in teams and how to collaborate on projects using GitHub.",
-    techStack: ["html", "css", "bootstrap", "javascript", "ruby", "ruby on rails", "postgresql"],
+      "After discovering my passion for web development, I decided to take the leap and enrol on a 9-week full-time intensive full-stack web developer bootcamp. I learned an amazing amount during this time including Ruby, Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL, Git, GitHub, Heroku, and much much more. I also learned how to work in teams and how to collaborate on projects using Git.",
+    techStack: ["html", "css", "bootstrap", "javascript", "ruby", "ruby on rails", "postgresql", "git"],
   },
   {
     id: "11-21-11-22",

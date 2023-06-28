@@ -11,7 +11,9 @@ export default function Tools() {
           {tools.frontEnd.map((tool) => {
             return (
               <div className=" flex flex-wrap gap-2 mb-4">
-                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+                <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
+                  {tool}
+                </p>
               </div>
             );
           })}
@@ -21,7 +23,9 @@ export default function Tools() {
           {tools.backEnd.map((tool) => {
             return (
               <div className=" flex flex-wrap gap-2 mb-4">
-                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+                <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
+                  {tool}
+                </p>
               </div>
             );
           })}
@@ -31,7 +35,9 @@ export default function Tools() {
           {tools.other.map((tool) => {
             return (
               <div className=" flex flex-wrap gap-2 mb-4">
-                <p className=" bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">{tool}</p>
+                <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
+                  {tool}
+                </p>
               </div>
             );
           })}

@@ -17,7 +17,10 @@ export default function ProjectCard() {
           <p className="text-lg text-purple-600 mb-2">Tech Stack</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {card.techStack.map((tech) => (
-              <p key={tech} className="bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase">
+              <p
+                key={tech}
+                className="bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase"
+              >
                 {tech}
               </p>
             ))}

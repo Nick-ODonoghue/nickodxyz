@@ -13,18 +13,25 @@ export default function About() {
           );
         })}
       </div>
-      <div>
+
+      <div className=" flex flex-col gap-20">
         {work.map((job) => {
           return (
-            <div id={job.id} className=" mb-20 flex flex-col gap-2">
+            <div id={job.id} className=" flex flex-col gap-2">
               <h2 className=" text-xl lg:text-3xl font-semibold mb-1">{job.title}</h2>
               <h3 className=" text-lg lg:text-xl font-semibold text-purple-600">{job.role}</h3>
               <h4 className=" text-sm font-semibold mb-1">{job.date}</h4>
-              <p className=" leading-7 lg:text-lg mb-1">{job.description}</p>
-              <div className=" flex flex-wrap gap-2 mb-4">
+              <p className=" leading-7 lg:text-lg mb-1 max-w-2xl lg:max-w-4xl">{job.description}</p>
+              <div className=" flex flex-wrap gap-2">
                 {job.techStack.map((tech) => {
                   return (
-                    <p className={tech ? "bg-slate-900 text-slate-50 tracking-widest text-sm py-1 px-2 uppercase" : ""}>
+                    <p
+                      className={
+                        tech
+                          ? "bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase"
+                          : ""
+                      }
+                    >
                       {tech}
                     </p>
                   );
