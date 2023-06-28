@@ -1,6 +1,6 @@
 <h1 align="center">Personal Portfolio | NickOD.xyz</h1>
 
-![Screenshot of site](/NickODxyzPortfolio.jpg)
+![Screenshot of site](./public/NickODxyzPortfolio.jpg)
 
 <br>
 
