@@ -26,6 +26,7 @@ export default function About() {
                 {job.techStack.map((tech) => {
                   return (
                     <p
+                      id={job.id}
                       className={
                         tech
                           ? "bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase"
