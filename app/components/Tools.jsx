@@ -8,9 +8,9 @@ export default function Tools() {
       <div className=" flex flex-col md:flex-row gap-8 md:justify-between lg:gap-0 max-w-4xl">
         <div>
           <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Front-End</h3>
-          {tools.frontEnd.map((tool) => {
+          {tools.frontEnd.map((tool, id) => {
             return (
-              <div key={tool} className=" flex flex-wrap gap-2 mb-4">
+              <div key={id} className=" flex flex-wrap gap-2 mb-4">
                 <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
                   {tool}
                 </p>
@@ -20,9 +20,9 @@ export default function Tools() {
         </div>
         <div>
           <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Back-End</h3>
-          {tools.backEnd.map((tool) => {
+          {tools.backEnd.map((tool, id) => {
             return (
-              <div key={tool} className=" flex flex-wrap gap-2 mb-4">
+              <div key={id} className=" flex flex-wrap gap-2 mb-4">
                 <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
                   {tool}
                 </p>
@@ -32,9 +32,9 @@ export default function Tools() {
         </div>
         <div>
           <h3 className=" text-lg lg:text-xl font-semibold text-purple-600 mb-2">Other</h3>
-          {tools.other.map((tool) => {
+          {tools.other.map((tool, id) => {
             return (
-              <div key={tool} className=" flex flex-wrap gap-2 mb-4">
+              <div key={id} className=" flex flex-wrap gap-2 mb-4">
                 <p className=" bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase">
                   {tool}
                 </p>

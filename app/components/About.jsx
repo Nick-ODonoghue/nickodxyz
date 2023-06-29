@@ -23,10 +23,10 @@ export default function About() {
               <h4 className=" text-sm font-semibold mb-1">{job.date}</h4>
               <p className=" leading-7 lg:text-lg mb-1 max-w-2xl lg:max-w-4xl">{job.description}</p>
               <div className=" flex flex-wrap gap-2">
-                {job.techStack.map((tech) => {
+                {job.techStack.map((tech, id) => {
                   return (
                     <p
-                      key={job.id}
+                      key={id}
                       className={
                         tech
                           ? "bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase"
