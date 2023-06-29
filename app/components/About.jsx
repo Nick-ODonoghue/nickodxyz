@@ -7,7 +7,7 @@ export default function About() {
       <div className=" mb-10">
         {aboutMe.map((about) => {
           return (
-            <p id={about.id} className=" text-xl font-semibold leading-7 tracking-wide max-w-2xl lg:max-w-4xl">
+            <p key={about.id} className=" text-xl font-semibold leading-7 tracking-wide max-w-2xl lg:max-w-4xl">
               {about.descrition}
             </p>
           );
@@ -17,7 +17,7 @@ export default function About() {
       <div className=" flex flex-col gap-20">
         {work.map((job) => {
           return (
-            <div id={job.id} className=" flex flex-col gap-2">
+            <div key={job.id} className=" flex flex-col gap-2">
               <h2 className=" text-xl lg:text-3xl font-semibold mb-1">{job.title}</h2>
               <h3 className=" text-lg lg:text-xl font-semibold text-purple-600">{job.role}</h3>
               <h4 className=" text-sm font-semibold mb-1">{job.date}</h4>
@@ -26,7 +26,7 @@ export default function About() {
                 {job.techStack.map((tech) => {
                   return (
                     <p
-                      id={job.id}
+                      key={job.id}
                       className={
                         tech
                           ? "bg-slate-800 text-slate-50 tracking-widest text-sm font-semibold py-1 px-2 uppercase"
