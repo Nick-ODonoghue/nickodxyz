@@ -5,3 +5,5 @@ export const navLinks = [
   { path: "#tools", name: ".tools()" },
   // { path: "#contact", name: ".contact()" },
 ];
+
+export const siteUrl = ["https://NickOD./xyz"];

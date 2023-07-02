@@ -1,6 +1,7 @@
-import AllofYou from "/public/AllofYou.jpg";
-import EveryBiteCounts from "/public/EveryBiteCounts.jpg";
 import FootySportsNews from "/public/Footy-Sports-News.jpg";
+import AllofYou from "/public/AllofYou.jpg";
+import NickODxyz from "/public/NickODxyzPortfolio.jpg";
+import EveryBiteCounts from "/public/EveryBiteCounts.jpg";
 
 export const portfolioData = [
   {
@@ -34,6 +35,23 @@ export const portfolioData = [
       {
         label: "Github",
         url: "https://github.com/nikstojkov/AllofYou",
+      },
+    ],
+  },
+  {
+    image: NickODxyz,
+    title: "NickOD.xyz Portfolio",
+    description:
+      "This portfolio site features a modular data structure, enabling easy customization for anyone. By separating the site's content into separate files, individuals can effortlessly update and personalize the data to reflect their own skills, projects, and experiences.",
+    techStack: ["javascript", "react.js", "next.js", "tailwindcss", "jest", "react-testing-library", "vercel"],
+    siteLinks: [
+      {
+        label: "Live Site",
+        url: "https://NickOD.xyz/",
+      },
+      {
+        label: "Github",
+        url: "https://github.com/Nick-ODonoghue/nickodxyz",
       },
     ],
   },

@@ -3,7 +3,7 @@ import { aboutMe, work } from "../data/aboutMe";
 export default function About() {
   return (
     <section id="about" className=" px-3 h-auto flex flex-col justify-center pt-28">
-      <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 mr-auto ">.about()</h2>
+      <h2 className="  text-4xl sm:text-5xl lg:text-6xl text-purple-600 font-semibold mb-6 mr-auto  ">.about()</h2>
       <div className=" mb-10">
         {aboutMe.map((about) => {
           return (
