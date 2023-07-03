@@ -17,10 +17,10 @@ export default function Intro() {
         </p>
       </div>
       <div className=" text-5xl flex justify-center gap-16">
-        <Link href={"https://www.linkedin.com/in/nick-odonoghue/"} target="_blank">
+        <Link href={intro.socials.linkedIn} target="_blank">
           <AiFillLinkedin className="text-slate-800  hover:text-purple-600 transition-all duration-300" />
         </Link>
-        <Link href={"https://github.com/Nick-ODonoghue"} target="_blank">
+        <Link href={intro.socials.github} target="_blank">
           <AiFillGithub className="text-slate-800  hover:text-purple-600 transition-all duration-300" />
         </Link>
       </div>

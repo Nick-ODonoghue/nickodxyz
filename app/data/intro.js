@@ -7,4 +7,8 @@ export const intro = {
   emojiWave: "👋",
   emojiGaming: "🕹️",
   emojiTravel: "✈️",
+  socials: {
+    linkedIn: "https://www.linkedin.com/in/nick-odonoghue/",
+    github: "https://github.com/Nick-ODonoghue",
+  },
 };
