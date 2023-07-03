@@ -6,7 +6,7 @@ export default function ProjectCard() {
   return (
     <div className=" flex flex-col gap-8">
       {portfolioData.map((card) => (
-        <div key={card.title} className="shadow-lg p-4 rounded-lg max-w-4xl mx-auto">
+        <div data-testid="project-card" key={card.title} className="shadow-lg p-4 rounded-lg max-w-4xl mx-auto">
           <div className="relative overflow-hidden rounded-md group mb-2">
             <Image src={card.image} alt={card.title} />
             <div className="absolute h-full w-full bg-black/90 flex items-center justify-center bottom-full group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-md px-2">
