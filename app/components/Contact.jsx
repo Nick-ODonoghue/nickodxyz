@@ -1,12 +1,23 @@
-import React from "react";
+"use client";
 
 export default function Contact() {
   return (
     <section id="contact" className=" px-3 h-screen flex flex-col items-center pt-28">
       <h2 className=" text-3xl font-semibold mb-6 mr-auto ">.contact()</h2>
-      <form className=" flex flex-col gap-6 w-full lg:max-w-2xl">
+      <form
+        action="https://formsubmit.co/5867d62f7c696666d88bdddad2fc7fe6"
+        method="post"
+        className=" flex flex-col gap-6 w-full lg:max-w-2xl"
+      >
+        {/* Remove formsubmit Captsha */}
+        <input type="hidden" name="_captcha" value="false" />
+        {/* Set Email Subject */}
+        <input type="hidden" name="_subject" value="New submission!" />
+
         <div className=" flex flex-col">
-          <label className=" text-lg font-semibold text-purple-600 mb-2">Name</label>
+          <label className=" text-lg font-semibold text-purple-600 mb-2" htmlFor="name">
+            Name
+          </label>
           <input
             className=" bg-slate-100 border-none rounded-md py-2 px-4"
             type="text"
@@ -15,7 +26,9 @@ export default function Contact() {
           />
         </div>
         <div className=" flex flex-col">
-          <label className=" text-lg font-semibold text-purple-600 mb-2">Email</label>
+          <label className=" text-lg font-semibold text-purple-600 mb-2" htmlFor="email">
+            Email
+          </label>
           <input
             className=" bg-slate-100 border-none rounded-md py-2 px-4"
             type="email"
@@ -24,7 +37,9 @@ export default function Contact() {
           />
         </div>
         <div className=" flex flex-col">
-          <label className=" text-lg font-semibold text-purple-600 mb-2">Message</label>
+          <label className=" text-lg font-semibold text-purple-600 mb-2" htmlFor="message">
+            Message
+          </label>
           <textarea
             className=" bg-slate-100 border-none rounded-md py-2 px-4"
             name="message"
