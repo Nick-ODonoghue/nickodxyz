@@ -15,7 +15,7 @@ export function NavbarLinks() {
 
   return (
     <nav className=" container fixed bottom-5 px-3 z-50 ">
-      <div className="bg-purple-600 text-slate-50 rounded-full flex justify-center gap-6 px-10 py-4 max-w-fit mx-auto shadow-lg hover:shadow-none transition-all duration-500">
+      <div className="bg-purple-600 text-slate-50 rounded-full flex justify-center gap-6 sm:gap-10 px-10 py-4 max-w-fit mx-auto shadow-lg hover:shadow-none transition-all duration-500">
         {navLinks.map((link) => {
           return (
             <Link key={link.name} href={link.path} onClick={handleScroll} className=" group font-semibold">
