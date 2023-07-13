@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Exo_2 } from "next/font/google";
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${exo.className} w-full min-h-screen container mx-auto `}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
