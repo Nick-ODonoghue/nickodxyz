@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <header className=" py-6 px-3 fixed z-20 bg-white/95 flex items-center justify-between container">
-        <Link href={siteUrl} className=" text-4xl font-semibold">
+        <Link href={siteUrl} prefetch className=" text-4xl font-semibold">
           {title}
         </Link>
         <Link
