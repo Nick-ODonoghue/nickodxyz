@@ -11,7 +11,7 @@ export default function Navbar() {
           {title}
         </Link>
         <Link
-          href='/Nicholas ODonoghue - Full Stack Web Developer.pdf'
+          href='/Nicholas_ODonoghue_Full_Stack_Web_Developer.pdf'
           target='_blank'
           className=' font-semibold text-white bg-purple-600 py-2 px-4 rounded-full shadow-lg hover:bg-purple-400 hover:shadow-none hover:text-black transition-all duration-500'
         >
