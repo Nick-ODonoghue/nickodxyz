@@ -5,7 +5,7 @@ export default function Contact() {
     <section id='contact' className=' px-3 h-auto flex flex-col items-center pt-28'>
       <h2 className=' text-4xl sm:text-5xl lg:text-6xl text-purple-600 font-semibold mb-6 mr-auto '>.contact()</h2>
       <form
-        action='https://formsubmit.co/03e978b50190ebb4f042816526b1a7ee'
+        action='https://formsubmit.co/nick@nickod.xyz'
         method='post'
         className=' flex flex-col gap-6 w-full lg:max-w-2xl border-2 border-slate-800 p-6 rounded-md'
       >

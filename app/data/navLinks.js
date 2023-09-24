@@ -4,6 +4,6 @@ export const navLinks = [
   { path: "#about", name: "about" },
   { path: "#tools", name: "tools" },
   { path: "#contact", name: "contact" },
-];
+]
 
-export const siteUrl = ["https://NickOD./xyz"];
+export const siteUrl = ["https://NickOD./xyz"]
